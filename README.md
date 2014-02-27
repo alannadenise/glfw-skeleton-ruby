@@ -2,6 +2,8 @@
 
 A skeleton Ruby application that makes use of the [GLFW library](http://www.glfw.org) for rapidly prototyping OpenGL applications in Ruby via the [ruby-glfw3 bindings](https://github.com/nilium/ruby-glfw3). It is based on the C++ [glfw-skeleton project](https://github.com/andystanton/glfw-skeleton).
 
+![](http://andystanton.github.io/glfw-skeleton/images/content/1.0-ruby/glfw-skeleton.png)
+
 
 ## Requirements
 
