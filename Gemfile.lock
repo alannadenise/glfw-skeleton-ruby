@@ -2,7 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     glfw3 (0.4.5)
-    opengl-core (2.0.1)
     rake (10.1.0)
 
 PLATFORMS
@@ -10,5 +9,4 @@ PLATFORMS
 
 DEPENDENCIES
   glfw3
-  opengl-core
   rake
