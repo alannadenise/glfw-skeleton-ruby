@@ -1,5 +1,3 @@
-#!/usr/local/bin/ruby
-
 require 'glfw3'
 require 'opengl-core'
 require 'opengl'
