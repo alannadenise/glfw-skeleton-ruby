@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-require 'glfw3'
-require 'opengl-core'
+gem 'glfw3'
+gem 'opengl-core'
 gem 'rake', :group => :test
