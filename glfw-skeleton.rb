@@ -1,11 +1,12 @@
 #!/usr/local/bin/ruby
 
 require 'glfw3'
-require 'opengl'
 require 'opengl-core'
+require 'opengl'
 
 Glfw.init
 
+Glfw::Window.window_hint(Glfw::RESIZABLE, 0)
 window = Glfw::Window.new(640, 480, "GLFW Skeleton Ruby")
 
 def drawSkullAt(pos_x, pos_y)
@@ -68,8 +69,6 @@ window.set_size_callback {
   |window,width,height|
   reshape(window,width,height)
 }
-
-#window.window_hint(Glfw::RESIZABLE, Gl::GL_FALSE)
 
 window.make_context_current
 
