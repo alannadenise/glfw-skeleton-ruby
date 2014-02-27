@@ -18,7 +18,7 @@ git clone https://github.com/andystanton/glfw-skeleton-ruby.git --recursive && c
 Get the dependencies:
 
 ```sh
-sudo bundle install
+sudo -E bundle install
 ```
 
 Run the rb file.
