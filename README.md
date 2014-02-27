@@ -2,10 +2,15 @@
 
 A skeleton Ruby application that makes use of the [GLFW library](http://www.glfw.org) for rapidly prototyping OpenGL applications in Ruby via the [ruby-glfw3 bindings](https://github.com/nilium/ruby-glfw3). It is based on the C++ [glfw-skeleton project](https://github.com/andystanton/glfw-skeleton).
 
+
 ## Requirements
 
  * Ruby >= 2.0.0
- * [ruby-glfw3](https://github.com/nilium/ruby-glfw3) ([Installation Instructions](https://github.com/nilium/ruby-glfw3/blob/master/README.md#intro))
+ * [GLFW3](http://www.glfw.org/download.html) *
+
+
+\* Brew is strongly recommended on MacOS for simplicity: ```brew install glfw3```
+
 
 ## Quick Start
 
@@ -21,7 +26,7 @@ Get the dependencies:
 sudo -E bundle install
 ```
 
-Run the rb file.
+Run the rb file:
 
 ```sh
 ruby glfw-skeleton.rb
