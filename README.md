@@ -11,7 +11,7 @@ A skeleton Ruby application that makes use of the [GLFW library](http://www.glfw
  * [GLFW3](http://www.glfw.org/download.html) *
 
 
-\* Brew is strongly recommended on MacOS for simplicity: ```brew install glfw3```
+\* [Homebrew](http://brew.sh/) is strongly recommended on MacOS for simplicity: ```brew install glfw3```
 
 
 ## Quick Start
