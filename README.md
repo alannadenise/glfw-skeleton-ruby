@@ -31,5 +31,5 @@ sudo -E bundle install
 Run the rb file:
 
 ```sh
-ruby glfw-skeleton.rb
+ruby src/glfw-skeleton.rb
 ```
