@@ -136,7 +136,7 @@ window.make_context_current
 reshape(window, window.size[0], window.size[1])
 
 loop {
-  Glfw.wait_events
+  Glfw.poll_events
   Gl.glClear(Gl::GL_COLOR_BUFFER_BIT | Gl::GL_DEPTH_BUFFER_BIT)
 
   x, y = window.size
